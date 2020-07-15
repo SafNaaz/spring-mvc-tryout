@@ -24,7 +24,7 @@ public class Customer {
 	@Pattern(regexp="^[a-zA-Z0-9]{6}", message="only 6 chars/digits")
 	private String postalCode;
 	
-	@CourseCode
+	@CourseCode(value="NAAZ",message="must start with NAAZ")
 	private String courseCode;
 	
 	public String getFirstName() {
