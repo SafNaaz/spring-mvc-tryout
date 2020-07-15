@@ -19,6 +19,10 @@
 <a href="student/showForm">Student Form</a>
 
 <hr>
+
+<a href="customer/showForm">Customer Form</a>
+
+<hr>
 <button onclick="showAlert()">Click Me</button>
 <hr>
 <img src="${pageContext.request.contextPath}/resources/images/Photograph.jpg" />
