@@ -20,6 +20,14 @@
 	</form:select>
 	<br><br>
 	
+	Favourite Language:
+	
+	Java <form:radiobutton path="favouriteLanguage" value="Java"/>
+	JavaScript <form:radiobutton path="favouriteLanguage" value="JavaScript"/>
+	Python <form:radiobutton path="favouriteLanguage" value="Python"/>
+	
+	<br><br>
+	
 	<input type="submit" value=Submit>
 	
 	</form:form>
