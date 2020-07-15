@@ -27,6 +27,13 @@
 	Python <form:radiobutton path="favouriteLanguage" value="Python"/>
 	
 	<br><br>
+	Operating Systems:
+	
+	Windows: <form:checkbox path="operatingSystems" value="Windows"/>
+	Mac: <form:checkbox path="operatingSystems" value="Mac"/>
+	Linux: <form:checkbox path="operatingSystems" value="Linux"/>
+	
+	<br><br>
 	
 	<input type="submit" value=Submit>
 	
